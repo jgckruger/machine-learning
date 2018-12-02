@@ -1,0 +1,10 @@
+aborigene
+cavalo
+comida
+dinossauro
+elefante
+flor
+montanha
+monumento
+onibus
+praia
