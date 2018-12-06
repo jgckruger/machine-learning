@@ -29,6 +29,7 @@ clf2.score(sfm.transform(X),y)
 
 dados = np.array(sfm.transform(X))
 y = np.array([y])
-dados=np.concatenate((X, y.T), axis=1)
+dados=np.concatenate((dados, y.T), axis=1)
+print(dados.shape)
 dados=pd.DataFrame(dados)
 dados.to_csv('selected.csv', sep=',', encoding='utf-8', index=False)
